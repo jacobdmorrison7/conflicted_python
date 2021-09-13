@@ -1,5 +1,3 @@
-""" Demo file """
-
 import glob
 
 def print_files(directory):
@@ -9,5 +7,5 @@ def print_files(directory):
         print('file {} is {}'.format(i, f))
 
 if __name__ == '__main__':
-    directory = "/home/robertsj/*"
+    directory = "/Users/student/*"
     print_files(directory)
